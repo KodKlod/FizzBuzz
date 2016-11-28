@@ -9,14 +9,11 @@ package co.simplon.prairie;
  */
 public class FizzBuzz {
 
-	/**
-	 * Constructeur
-	 */
+	//Constructeur
 	public FizzBuzz() {
 	}
 
-	/**
-	 * Affichage sur la sortie standard (console) de la liste des entiers entre
+	/*Affichage sur la sortie standard (console) de la liste des entiers entre
 	 * l'index de debut et de fin, avec prise en compte des regles de
 	 * substitutions fournies
 	 * 
@@ -26,9 +23,8 @@ public class FizzBuzz {
 	 *            Index (entier) de fin pour l'affichage
 	 */
 	public void afficherListeEntiers(int debut, int fin) {
-		// code a definir pour afficher la serie de 0 a 50
-		// et appeler ce code dans le main.java
-		
+		/* code definit pour afficher dans le Main.java
+		*/
 		for (int counter = debut; counter <= fin; counter++) {
 			System.out.println(determinerCorrespondance(counter));
 		}
